@@ -1,12 +1,12 @@
-﻿using EmailScheduler;
+using EmailScheduler;
 
 namespace Scheduler
 {
-	class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-			new EmailSchaduler().Run();
-		}
+      new EmailSchaduler().Run();
     }
+  }
 }

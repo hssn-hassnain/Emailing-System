@@ -1,4 +1,4 @@
-﻿using EmailScheduler.Interface;
+using EmailScheduler.Interface;
 using EmailSchedulerData;
 using System;
 using System.Collections.Generic;
@@ -50,15 +50,15 @@ namespace EmailScheduler
 						&& (DateTime.Now.Date - userProfile.LastEmailSent.Value).TotalDays >= activeDaysLimit)
 					{
 						email.Send();
-					}
+            userProfile.LastEmailSent = DateTime.Now.Date;
+          }
 
 					if (userProfile.Status == Status.NotResponsive.ToString("G")
 						&& (DateTime.Now.Date - userProfile.LastEmailSent.Value).TotalDays > notResponsiveDaysLimit)
 					{
 						email.Send();
-					}
-
-					userProfile.LastEmailSent = DateTime.Now.Date;
+            userProfile.LastEmailSent = DateTime.Now.Date;
+          }
 				}
 				context.SaveChanges();
 			}

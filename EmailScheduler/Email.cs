@@ -1,12 +1,12 @@
-﻿using EmailScheduler.Interface;
+using EmailScheduler.Interface;
 
 namespace EmailScheduler
 {
-	public class Email : IEmail
+  public class Email : IEmail
+  {
+    public bool Send()
     {
-        public bool Send()
-        {
-			return true;
-        }
+      return true;
     }
+  }
 }

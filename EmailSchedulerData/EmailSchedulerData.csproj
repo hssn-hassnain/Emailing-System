@@ -50,37 +50,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmailScheduler.Context.cs">
+    <Compile Include="emailScheduler.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EmailScheduler.Context.tt</DependentUpon>
+      <DependentUpon>emailScheduler.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="EmailScheduler.cs">
+    <Compile Include="emailScheduler.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EmailScheduler.tt</DependentUpon>
+      <DependentUpon>emailScheduler.tt</DependentUpon>
     </Compile>
-    <Compile Include="EmailScheduler.Designer.cs">
+    <Compile Include="emailScheduler.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EmailScheduler.edmx</DependentUpon>
+      <DependentUpon>emailScheduler.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Schedule_table.cs">
-      <DependentUpon>EmailScheduler.tt</DependentUpon>
+      <DependentUpon>emailScheduler.tt</DependentUpon>
     </Compile>
     <Compile Include="UserProfile.cs">
-      <DependentUpon>EmailScheduler.tt</DependentUpon>
+      <DependentUpon>emailScheduler.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="EmailScheduler.edmx">
+    <EntityDeploy Include="emailScheduler.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>EmailScheduler.Designer.cs</LastGenOutput>
+      <LastGenOutput>emailScheduler.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="EmailScheduler.edmx.diagram">
-      <DependentUpon>EmailScheduler.edmx</DependentUpon>
+    <None Include="emailScheduler.edmx.diagram">
+      <DependentUpon>emailScheduler.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -88,15 +88,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EmailScheduler.Context.tt">
+    <Content Include="emailScheduler.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EmailScheduler.edmx</DependentUpon>
-      <LastGenOutput>EmailScheduler.Context.cs</LastGenOutput>
+      <DependentUpon>emailScheduler.edmx</DependentUpon>
+      <LastGenOutput>emailScheduler.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="EmailScheduler.tt">
+    <Content Include="emailScheduler.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EmailScheduler.edmx</DependentUpon>
-      <LastGenOutput>EmailScheduler.cs</LastGenOutput>
+      <DependentUpon>emailScheduler.edmx</DependentUpon>
+      <LastGenOutput>emailScheduler.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

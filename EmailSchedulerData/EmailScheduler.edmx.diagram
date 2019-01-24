@@ -4,9 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="55816b58715b497981275122ec9be037" Name="Diagram1" >
-        <EntityTypeShape EntityType="emailSchedulerModel.Schedule_table" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="emailSchedulerModel.UserProfile" Width="1.5" PointX="2.625" PointY="0.75" />
+      <Diagram DiagramId="a21d732ccb194e74b13ef1036df46346" Name="Diagram1">
+        <EntityTypeShape EntityType="emailSchedulerModel.Schedule_table" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="emailSchedulerModel.UserProfile" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
