@@ -1,0 +1,6 @@
+D:\EmailSchaduler\EmailSchaduler\EmailSchedulerCommon\bin\Debug\EmailSchedulerCommon.dll
+D:\EmailSchaduler\EmailSchaduler\EmailSchedulerCommon\bin\Debug\EmailSchedulerCommon.pdb
+D:\EmailSchaduler\EmailSchaduler\EmailSchedulerCommon\obj\Debug\EmailSchedulerCommon.csproj.CoreCompileInputs.cache
+D:\EmailSchaduler\EmailSchaduler\EmailSchedulerCommon\obj\Debug\EmailSchedulerCommon.dll
+D:\EmailSchaduler\EmailSchaduler\EmailSchedulerCommon\obj\Debug\EmailSchedulerCommon.pdb
+D:\EmailSchaduler\EmailSchaduler\EmailSchedulerCommon\obj\Debug\EmailSchedulerCommon.csprojAssemblyReference.cache
