@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="emailSenderModelStoreContainer" CdmEntityContainer="emailSenderEntities">
+    <EntitySetMapping Name="Schedule_table">
+      <EntityTypeMapping TypeName="emailSenderModel.Schedule_table">
+        <MappingFragment StoreEntitySet="Schedule_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status_table">
+      <EntityTypeMapping TypeName="emailSenderModel.Status_table">
+        <MappingFragment StoreEntitySet="Status_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sTATUS" ColumnName="sTATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserProfiles">
+      <EntityTypeMapping TypeName="emailSenderModel.UserProfile">
+        <MappingFragment StoreEntitySet="UserProfile">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone_NO" ColumnName="Phone_NO" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,11 @@
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\bin\Debug\EmailSchedulerData.dll.config
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\bin\Debug\EmailSchedulerData.dll
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\bin\Debug\EmailSchedulerData.pdb
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\bin\Debug\EntityFramework.dll
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\bin\Debug\EntityFramework.xml
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\obj\Debug\EmailSchedulerData.csproj.CoreCompileInputs.cache
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\obj\Debug\EmailSchedulerData.csproj.CopyComplete
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\obj\Debug\EmailSchedulerData.dll
+C:\Users\iTranscend\source\repos\EmailSchaduler\EmailSchedulerData\obj\Debug\EmailSchedulerData.pdb

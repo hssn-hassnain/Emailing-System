@@ -1,0 +1,6 @@
+C:\Users\iTranscend\source\repos\EmailSchaduler\Scheduler\bin\Debug\Scheduler.exe.config
+C:\Users\iTranscend\source\repos\EmailSchaduler\Scheduler\bin\Debug\Scheduler.exe
+C:\Users\iTranscend\source\repos\EmailSchaduler\Scheduler\bin\Debug\Scheduler.pdb
+C:\Users\iTranscend\source\repos\EmailSchaduler\Scheduler\obj\Debug\Scheduler.csproj.CoreCompileInputs.cache
+C:\Users\iTranscend\source\repos\EmailSchaduler\Scheduler\obj\Debug\Scheduler.exe
+C:\Users\iTranscend\source\repos\EmailSchaduler\Scheduler\obj\Debug\Scheduler.pdb

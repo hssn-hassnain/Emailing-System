@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="emailSenderModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Schedule_table">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Time" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Status_table">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sTATUS" Type="nvarchar" MaxLength="75" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="75" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="75" Nullable="false" />
+    <Property Name="Phone_NO" Type="nvarchar" MaxLength="75" Nullable="false" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="75" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Schedule_table_UserProfile">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1" />
+    <End Role="Schedule_table" Type="Self.Schedule_table" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Schedule_table">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Status_table_UserProfile">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1" />
+    <End Role="Status_table" Type="Self.Status_table" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Status_table">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="emailSenderModelStoreContainer">
+    <EntitySet Name="Schedule_table" EntityType="Self.Schedule_table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status_table" EntityType="Self.Status_table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserProfile" EntityType="Self.UserProfile" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Schedule_table_UserProfile" Association="Self.FK_Schedule_table_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="Schedule_table" EntitySet="Schedule_table" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Status_table_UserProfile" Association="Self.FK_Status_table_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="Status_table" EntitySet="Status_table" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
